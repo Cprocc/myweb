@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>赵新诚的个人主页</title>
+		<meta charset="utf-8">
+        <link style type="text/css" rel="stylesheet" href="myhtml.css">    
+</style>  
+    </head>
+<body>
+    <audio  width="320" height="240"  src="you.mp3" autoplay loop>
+	       not support audio
+    </audio>
+	<div id="returntop"></div>  
+	<script type="text/javascript">  
+var getDiv=document.getElementById('returntop');  
+getDiv.onclick=function(){  
+window.scrollTo(0,0);  
+}  
+window.onscroll=function(){  
+if(document.documentElement.scrollTop){  
+getDiv.style.display="block";  
+}else if(document.body.scrollTop){  
+getDiv.style.display="block";  
+}else{  
+getDiv.style.display="none";  
+}  
+}  
+function getWinSize(){  
+var winHeight=window.innerHeight,winWidth=window.innerWidth;  
+if(document.documentElement.clientHeight){  
+winHeight=document.documentElement.clientHeight;  
+winWidth=document.documentElement.clientWidth;  
+}else{  
+winHeight=document.body.clientHeight;  
+winWidth=document.body.clientWidth;  
+}  
+    var height=winHeight-50;  
+var width=winWidth-100;  
+getDiv.style.top=height+"px";  
+getDiv.style.left=width+"px";  
+}  
+getWinSize();  
+window.onresize=getWinSize;  
+</script> 
+    <header class="header">
+	<img src="picture/logo.jpg"> 
+	    <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+			<div class="container">
+				<ul id="page-nav" class="nav page-nav list-inline">
+					<li><a class="scrollto" href="#infor">Information</a></li>
+					<li><a class="scrollto" href="#mainer">Education</a></li>
+					<li><a class="scrollto" href="#skill">Skills</a></li>
+					<li><a class="scrollto" href="#other-skills">Other-skills</a></li>
+					<li><a class="scrollto" href="#photo">Photos</a></li>
+					<li><a class="scrollto" href="#contact">Contact</a></li>
+				</ul><!--//page-nav-->
+			</div>
+		</div><!--//page-nav-wrapper-->
+ </header>
+	
+<div id="tableContainer">
+<div id="tableRow">
+    <aside>
+         <img src="picture/zxc.jpg">
+     </aside>	
+	 
+    <section id="infor">
+	<h2>基本信息</h2>
+	      <p class="BasicInformation">
+	    民族：    汉</br>
+		政治面貌：中共预备党员<br>
+		住址：    登封·河南</br>
+    	Tel：     15927278131</br>
+	    Emil：    755516806@qq.com</br>
+	     </p>
+	</section>
+	
+</div>
+</div>
+
+	<section id="mainer">
+	<h2>教育背景</h2>
+	<p id="edubackground"> 
+	    毕业院校：华中农业大学·武汉</br>
+		主修专业：信息与计算科学</br>
+	    学位：理学学士</br>
+	    主修课程：c/c++,java,数学分析,高等代数</br>
+	    在校GPA:3.04
+		
+	</p>
+	
+	<h2>在校曾任职务</h2>
+	<p >
+        寝室长</br> 	
+	    学院青年志愿者工作部部长</br>
+	    "e路阳光"志愿服务队队长</br>
+	    "e路阳光禁毒工程"创业团队负责人</p>
+	
+	
+	<h2>在校曾获荣誉</h2>
+	<p> 创青春·湖北省创业大赛铜奖-<mark>省级</mark></br>
+	    华中农业大学优秀青年志愿者-校级</br>
+	    志愿公益奖-校级
+		</p>
+    </section>   
+<section id="skill">
+<div class="skill">
+<h2>Skill</h2>
+    <p>Java
+    <progress value="20" max="100"></progress></br>
+	<details open="open">
+	<summary>java学习经历</summary>
+	<p>-完成java课程设计，包括银行管理系统，和聊天室两个程序</p>
+	</details>
+    </p>
+	<p>HTML
+    <progress value="30" max="100"></progress></br>
+	<details open="open">
+	<summary>HTML学习经历</summary>
+	<p>-完成Web课程设计，包含一个个人网站</p>
+	</details>
+    </p>
+	<p>C/C++
+    <progress value="40" max="100"></progress></br>
+	<details open="open">
+	<summary>C/C++学习经历</summary>
+	<p>-获得国家计算机2级“c语言”证书</p>
+	<p>完成C/C++课程设计</p>
+	</details>
+    </p>
+	<p>数据库
+    <progress value="20" max="100"></progress></br>
+	<details open="open">
+	<summary>数据库学习经历</summary>
+	<p>-获得国家计算机2级“数据库技术”证书</p>
+    <p>通过数据库技术考试</p>
+	</details>
+    </p>
+</div>
+</section>
+<section id="other-skills">
+        <div class="other-skills">
+			<h3>Other Skills</h3>
+				<span class="skill-tag">HTML5</span>
+				<span class="skill-tag">CSS3</span>
+				<span class="skill-tag">SASS</span>
+				<span class="skill-tag">MATLAB</span>
+				<span class="skill-tag">ENGLISH</span>
+				<br>
+				<span class="skill-tag">LINGO</span>
+				<span class="skill-tag">PHP</span>
+				<span class="skill-tag">MANTH</span>
+				<span class="skill-tag">DS</span>
+		</div>
+</section>
+
+<section id="photo">
+    <div class="photo">	
+	<h2>Photos</h2>
+	<table  border="0" align="center" cellpadding="10px" cellspacing="0">
+	<tr>
+	    <td>
+		                <h3>公益<span>活动</span></h3>
+						<p>为老人读报纸</p>
+						<img class="photo1" src="photo/1.jpg"  width="300px" height="400px"></td> 
+	    <td>
+		                <h3>志愿服务</h3>
+						<p>和孩子们在一起</p>
+		
+					<img src="photo/2.jpeg"  width="400px" height="270px"></td> 
+	    <td>
+		                <h3>我的</h3>
+						<p>单纯的一张照片</p>
+						<img src="photo/3.jpg"  width="300px" height="400px"></td>
+	</tr>
+	</table>
+	</div>
+</section>	
+<div class= "contact">
+<h2 id="contact">Contact me</h2>
+<img src="logos/facebook.png"><a href="https://www.facebook.com/xinxin.zhao.7165">访问我的facebook</a></br>
+<img src="logos/github.png"><a href="https://github.com/Cprocc">访问我的github</a></br>
+<img src="logos/share-this.png"><a href="https://zxcpro.butterfly.mopaasapp.com">我的个人主页</br>
+</div>
+
+<footer>
+	<p >赵新诚·信息与计算科学专业·理学院·华中农业大学</br>
+	Please steal this page,it isn't copyrighted in any way
+	</p>
+</footer>
+	
+</body>
+</html>

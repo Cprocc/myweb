@@ -1,0 +1,48 @@
+<script language="JavaScript"> 
+<!-- 
+var url = 'http://zxcpro.butterfly.mopaasapp.com/indru.html';  
+</script> 
+<title>网站数据加载中……</title> 
+</head> 
+<body onLoad="location.href = url"> 
+<div style='margin-top:40;margin-left:40;margin-right:0'> 
+  <p> </p> 
+  <p align="center"> </p> 
+  <p align="center"> </p> 
+  <p align="center">  
+    <style><!--.proccess{border:0px  solid; border-color:#009900; width:2;height:15;background:eeeeee;margin:0}--></style> 
+  </p> 
+  <div style='margin-top:-20;margin-left:0;margin-right:0' align="center">  
+    <form method=post name=proccess> 
+      <script language=javascript> 
+	  document.write("<br><br><br><br><table border=0 cellspacing=1 cellpadding=0  bgcolor=#000000 ><tr bgcolor=#ffffff><td  style='font:9pt Verdana;'>")
+for(i=0;i<200;i++)document.write("<input class=proccess >") 
+      document.write("</td></tr></table><br>")
+	  document.write("<div align=center style='font-size:9pt;color:#660000;'>Loading……,Please Wait!</div>")
+</script> 
+    </form> 
+  </div> 
+  <div align="center"> 
+    <script language=JavaScript><!-- 
+var p=0,j=0; 
+var c=new Array("#FF6600","#ffffff") 
+setInterval('proccess();',100) 
+function proccess(){ 
+ document.forms.proccess.elements[p].style.background=c[j]; 
+ p+=1; 
+ if(p==200){p=0;j=1-j;}} 
+--></script> 
+  </div> 
+</div> 
+<div align="center"> 
+  <script> 
+<!-- 
+if (document.layers)  
+  document.write('<Layer src="' + url + ' " VISIBILITY="hide"> </Layer>');  
+  else if (document.all || document.getElementById)  
+   document.write('<iframe src="' + url + '" style="visibility: hidden;"></iframe>');  
+else location.href = url; 
+//--> 
+</script> 
+</div> 
+</body>
